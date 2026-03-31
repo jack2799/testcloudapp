@@ -1,27 +1,36 @@
 name: testcloudapp
-description: A modern Flutter application
-publish_to: none
+description: A modern Flutter application.
+
+publish_to: 'none'
+
 version: 1.0.0+1
-environment
+
+environment:
   sdk: ">=3.0.0 <4.0.0"
+
 dependencies:
-  flutter_bloc: ^8.1.1
-dio: ^5.3.0
-equatable: ^2.0.5
-http: ^1.1.0
-intl: ^0.20.2
-provider: ^6.0.0
-cached_network_image: ^3.3.0
-shared_preferences: ^2.2.0
-flutter_localizations:
+  flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.5
+  dio: ^5.9.2
+  equatable: ^2.0.5
+  http: ^1.6.0
+  intl: ^0.20.2
+  provider: ^6.1.5
+  cached_network_image: ^3.4.1
+  shared_preferences: ^2.5.5
+  flutter_localizations:
+    sdk: flutter
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  build_runner: ^2.4.0
-  json_serializable: ^6.7.0
+  build_runner: ^2.10.5
+  json_serializable: ^6.13.1
+
 flutter:
   uses-material-design: true
+
   assets:
-    - images/
-    - icons/
+    - assets/images/
+    - assets/icons/
