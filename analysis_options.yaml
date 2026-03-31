@@ -1,0 +1,17 @@
+# This file contains the analysis options for Dart linting rules.
+
+analyzer:
+  errors:
+    unused_local_variable: warning
+    dead_code: warning
+
+linter:
+  rules:
+    - prefer_single_quotes
+    - void_checks
+    - annotate_overrides
+    - prefer_final_fields
+    - unnecessary_const
+    - prefer_is_empty
+
+# Add more rules as necessary
